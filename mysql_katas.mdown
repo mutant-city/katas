@@ -1,3 +1,11 @@
 ## mysql
+
+* Add user
+```
+  CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password';
+  GRANT ALL PRIVILEGES ON * . * TO 'newuser'@'localhost';
+  FLUSH PRIVILEGES;
+```
+
 * [add user](https://www.digitalocean.com/community/tutorials/how-to-create-a-new-user-and-grant-permissions-in-mysql)
 
