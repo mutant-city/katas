@@ -1,2 +1,2 @@
 # linux_katas
-daily linux practice
+daily dev and ops practice
