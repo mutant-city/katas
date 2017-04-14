@@ -1,7 +1,7 @@
 
 ## Compression
 
-`
+```
 tar -xvzf filename.tar.gz
 x: extract (vs compress)
 v: verbose
@@ -14,7 +14,7 @@ v: verbose
 
 gzip
 
-`
+```
 
 
 
