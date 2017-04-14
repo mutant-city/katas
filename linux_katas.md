@@ -20,7 +20,7 @@ gzip
 
 ## File System 
 
-`
+```
 
 top
 
@@ -39,28 +39,28 @@ h: human readable
 
 free -m or -g
 
-`
+```
 
 
 
 ## Random usefulness
-`
+```
 watch -n 1 'command'
 n: number of seconds
 
 
-`
+```
 
 
 ## Networking stuff
-`
+```
 scp user@remote_host.com:/some/remote/directory/file ~/my_local_file.txt
 
 
 lsof -i:3306
 check whats running at a port
 
-`
+```
 
 
 * [port forwarding](http://thekeesh.com/2014/01/connecting-to-a-rds-server-from-a-local-computer-using-ssh-tunneling-on-a-mac/)
