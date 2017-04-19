@@ -9,3 +9,8 @@
 
 * [add user](https://www.digitalocean.com/community/tutorials/how-to-create-a-new-user-and-grant-permissions-in-mysql)
 
+* change user password
+```
+SET PASSWORD FOR 'tom'@'localhost' = PASSWORD('foobar');
+```
+* [change pass](https://www.cyberciti.biz/faq/mysql-change-user-password/)
