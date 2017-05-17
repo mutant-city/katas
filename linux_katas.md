@@ -51,6 +51,12 @@ n: number of seconds
 
 ```
 
+## OS info gathering
+```
+uname -a
+lsb_release -a
+```
+
 
 ## Networking stuff
 ```
