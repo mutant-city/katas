@@ -48,7 +48,11 @@ free -m or -g
 watch -n 1 'command'
 n: number of seconds
 
+pbcopy < ~/.ssh/id_rsa.pub
+# Copies the contents of the id_rsa.pub file to your clipboard
 
+tail -f <your file>
+# continually tails a file
 ```
 
 ## OS info gathering
@@ -60,7 +64,7 @@ lsb_release -a
 
 ## Networking stuff
 ```
-scp user@remote_host.com:/some/remote/directory/file ~/my_local_file.txt
+scp ~/my_local_file.txt user@remote_host.com:/some/remote/directory/file 
 
 
 lsof -i:3306
