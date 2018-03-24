@@ -75,3 +75,18 @@ check whats running at a port
 
 * [port forwarding](http://thekeesh.com/2014/01/connecting-to-a-rds-server-from-a-local-computer-using-ssh-tunneling-on-a-mac/)
 
+
+## Public Ip
+```curl ipinfo.io/ip```
+
+
+## Packages
+```
+apt list --installed
+dpkg -l
+dpkg --get-selections | grep -v deinstall
+dpkg --get-selections | grep postgres
+```
+
+*  https://askubuntu.com/questions/17823/how-to-list-all-installed-packages
+
