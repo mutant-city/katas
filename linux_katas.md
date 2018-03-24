@@ -81,6 +81,7 @@ check whats running at a port
 
 
 ## Packages
+* list packages
 ```
 apt list --installed
 dpkg -l
