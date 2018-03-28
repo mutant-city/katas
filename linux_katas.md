@@ -91,3 +91,9 @@ dpkg --get-selections | grep postgres
 
 *  https://askubuntu.com/questions/17823/how-to-list-all-installed-packages
 
+
+
+## login banner
+* figlet - for large ascii fonts
+* /etc/update-motd.d/00-header
+* echo "myservername" | figlet
