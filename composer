@@ -1,1 +1,2 @@
-```composer require rxmg/warehouse-resources:dev-master```
+``` composer clear-cache ```
+``` composer require rxmg/warehouse-resources:dev-master ```
