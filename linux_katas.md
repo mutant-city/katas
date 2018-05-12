@@ -71,7 +71,7 @@ lsof -i:3306
 check whats running at a port
 
 ```
-
+Just like ```top``` is for CPU usage, ```iftop``` is for network usage.
 
 * [port forwarding](http://thekeesh.com/2014/01/connecting-to-a-rds-server-from-a-local-computer-using-ssh-tunneling-on-a-mac/)
 
