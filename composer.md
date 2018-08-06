@@ -14,7 +14,7 @@
 ### Troubleshooting
 -----
 * run composer install -vvv or composer update -vvv to get more info 
-* user profile composer files located at ~/.composer
+* user profile global composer files located at ~/.config/composer or ~/.composer
 * can delete the ~/.composer/cache/files to reset the composer cache
 * delete vendor, composer.lock files/directories
 * composer config --global --list to see all of the global composer keys
