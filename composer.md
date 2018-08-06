@@ -9,3 +9,21 @@
 * use composer update for some reason?
 * can view composer branches available in packagist or private packagist(right hand side)
 * composer update package:branch appears to change all dependencies as well, so even if already installed, use composer install package:branch
+
+
+### Troubleshooting
+-----
+* run composer install -vvv or composer update -vvv to get more info 
+* user profile composer files located at ~/.composer
+* can delete the ~/.composer/cache/files to reset the composer cache
+* delete vendor, composer.lock files/directories
+* composer config --global --list to see all of the global composer keys
+* composer clear-cache/composer dumpautoload
+
+
+### Private Packagist
+-----
+* deploy key in composer global
+* COMPOSER_AUTH variable
+* composer addition to composer.json file
+
