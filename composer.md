@@ -19,6 +19,10 @@
 * delete vendor, composer.lock files/directories
 * composer config --global --list to see all of the global composer keys
 * composer clear-cache/composer dumpautoload
+* composer install --prefer-dist
+```
+Oh, I see, you are installing dev-master so it defaults to cloning the repository which happens from GitHub only. If you want it to download a zip file from Packagist for a branch, you need to specify the option --prefer-dist on the composer command
+```
 
 
 
